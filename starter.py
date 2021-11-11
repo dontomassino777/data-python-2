@@ -79,7 +79,7 @@ elif score < 60:
 # Create a variable called 'changeMyMind' and set it equal to true. 
 # Check to see if changeMyMind is set to true or false, if it is true,
 # change the status to false, if it is false, change the status to true.
-change_my_mind = False
+change_my_mind = True
 
 
 if change_my_mind == True:
@@ -119,5 +119,6 @@ print(friends)
 # Remove the last item in the array (try to think about how you can do this dynamically, 
 # meaning, if the array contents were to change, your code would still work).
 
-friends.pop(-1)
+# or friends.pop(-1)
+del friends[-1]
 print(friends)
